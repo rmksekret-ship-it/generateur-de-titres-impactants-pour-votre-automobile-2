@@ -1,0 +1,46 @@
+{
+  "name": "Générateur de Titres Impactants pour Votre Automobile",
+  "description": "Attirez l'attention sur votre annonce ou article avec des titres captivants et optimisés. Saisissez les détails de votre véhicule et laissez notre algorithme faire la magie.",
+  "theme": "calculator",
+  "design_theme": "blueprint-wire",
+  "structure_preset": "bento-signal",
+  "render_direction": "signal-bento",
+  "page_blueprint": "magazine-fold",
+  "language": "fr",
+  "country": "FR",
+  "url": null,
+  "expected_url": "https://generateur-de-titres-impactants-pour-votre-automobile-2.onrender.com",
+  "created": "2026-06-11T01:09:12.943590+00:00",
+  "owner_user_id": "user-1774825923424-663",
+  "owner_username": "inso",
+  "owner_display_name": "Inso",
+  "provider_space_id": "new-sites",
+  "provider_space_name": "New Sites",
+  "status": "generated",
+  "run_id": "run-1781140089096",
+  "external_site_request_id": null,
+  "external_client_ref": null,
+  "external_source_label": null,
+  "source_type": "generated",
+  "publish_target": "render",
+  "mode": "production",
+  "github": {
+    "status": "pending"
+  },
+  "deployment": {
+    "status": "pending"
+  },
+  "qa": {
+    "status": "pending"
+  },
+  "features": [
+    "Hero pattern: command",
+    "Proof module: badges",
+    "Design theme: Blueprint Wire",
+    "Render direction: Signal Bento",
+    "Page blueprint: Magazine Fold",
+    "Runtime mode: generic_calculator",
+    "Generation mode: direct_html",
+    "Artifact rendered, awaiting QA and deployment"
+  ]
+}
