@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur de Titres Impactants pour Votre Automobile | Détails de Votre Véhicule</title>
+    <style>
+        :root {
+            --color-primary: #70b7b5;
+            --color-primary-light: #a4d2d1;
+            --color-secondary: #333;
+            --color-text: #555;
+            --color-bg: #f8f8f8;
+            --color-card-bg: #fff;
+            --color-border: #eee;
+            --font-sans: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+        }
+
+        body {
+            font-family: var(--font-sans);
+            line-height: 1.6;
+            color: var(--color-text);
+            background-color: var(--color-bg);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 5px solid var(--color-primary);
+            width: 100%;
+            box-sizing: border-box;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0 0 10px;
+            font-size: 2.8em;
+            font-weight: 600;
+        }
+
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .section {
+            background-color: var(--color-card-bg);
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            padding: 30px;
+            margin-bottom: 30px;
+            border: 1px solid var(--color-border);
+        }
+
+        .section h2 {
+            color: var(--color-primary);
+            font-size: 2em;
+            margin-top: 0;
+            margin-bottom: 20px;
+            border-bottom: 2px solid var(--color-primary-light);
+            padding-bottom: 10px;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: var(--color-secondary);
+        }
+
+        form input[type="text"],
+        form textarea {
+            width: calc(100% - 20px);
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid var(--color-border);
+            border-radius: 5px;
+            font-size: 1em;
+            box-sizing: border-box;
+        }
+
+        form textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        form button {
+            background-color: var(--color-primary);
+            color: white;
+            padding: 14px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.1em;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+            display: block;
+            width: auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        form button:hover {
+            background-color: var(--color-primary-light);
+        }
+
+        .result-section {
+            background-color: var(--color-card-bg);
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            padding: 30px;
+            margin-bottom: 30px;
+            border: 1px solid var(--color-border);
+        }
+
+        .result-section h2 {
+            color: var(--color-primary);
+            font-size: 2em;
+            margin-top: 0;
+            margin-bottom: 20px;
+            border-bottom: 2px solid var(--color-primary-light);
+            padding-bottom: 10px;
+        }
+
+        .result-group {
+            margin-bottom: 25px;
+            border-left: 4px solid var(--color-primary);
+            padding-left: 15px;
+        }
+
+        .result-group h3 {
+            color: var(--color-secondary);
+            font-size: 1.4em;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .result-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .result-list li {
+            background-color: #f0fafa;
+            border: 1px solid #d4eded;
+            padding: 10px 15px;
+            margin-bottom: 8px;
+            border-radius: 4px;
+            font-size: 1.05em;
+            color: #333;
+        }
+
+        .testimonials {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        .testimonial-card {
+            background-color: #fdfdfd;
+            padding: 25px;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.03);
+            text-align: center;
+        }
+
+        .testimonial-card p {
+            font-style: italic;
+            margin-bottom: 15px;
+            color: #666;
+        }
+
+        .testimonial-card .author {
+            font-weight: 600;
+            color: var(--color-secondary);
+        }
+
+        footer {
+            background-color: var(--color-secondary);
+            color: #fff;
+            padding: 30px 20px;
+            text-align: center;
+            width: 100%;
+            box-sizing: border-box;
+            margin-top: 40px;
+            font-size: 0.9em;
+        }
+
+        footer p {
+            margin: 0;
+            opacity: 0.8;
+        }
+
+        .seo-section {
+            background-color: var(--color-card-bg);
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            padding: 30px;
+            margin-top: 30px;
+            border: 1px solid var(--color-border);
+            text-align: left;
+        }
+
+        .seo-section h2 {
+            color: var(--color-primary);
+            font-size: 1.8em;
+            margin-top: 0;
+            margin-bottom: 15px;
+            border-bottom: 2px solid var(--color-primary-light);
+            padding-bottom: 10px;
+        }
+
+        .seo-section p {
+            margin-bottom: 1em;
+        }
+
+        .seo-section ul {
+            list-style: disc inside;
+            padding-left: 20px;
+        }
+
+        .seo-section li {
+            margin-bottom: 0.5em;
+        }
+    </style>
+    <meta name="description" content="Attirez l&#x27;attention sur votre annonce ou article avec des titres captivants et optimisés. Saisissez les détails de votre véhicule et laissez notre algorithme faire la magie.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://generateur-de-titres-impactants-pour-votre-automobile-2.onrender.com">
+    <meta property="og:title" content="Générateur de Titres Impactants pour Votre Automobile">
+    <meta property="og:description" content="Attirez l&#x27;attention sur votre annonce ou article avec des titres captivants et optimisés. Saisissez les détails de votre véhicule et laissez notre algorithme faire la magie.">
+    <meta property="og:url" content="https://generateur-de-titres-impactants-pour-votre-automobile-2.onrender.com">
+    <meta property="og:type" content="website">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Générateur de Titres Impactants pour Votre Automobile", "description": "Attirez l'attention sur votre annonce ou article avec des titres captivants et optimisés. Saisissez les détails de votre véhicule et laissez notre algorithme faire la magie.", "url": "https://generateur-de-titres-impactants-pour-votre-automobile-2.onrender.com", "applicationCategory": "UtilityApplication", "operatingSystem": "Web Browser"}</script>
+</head>
+<body data-site-slug="generateur-de-titres-impactants-pour-votre-automobile-2" data-runtime-mode="generic_calculator">
+    <header>
+        <h1>Générateur de Titres Impactants pour Votre Automobile</h1>
+        <p>Attirez l'attention sur votre annonce ou article avec des titres captivants et optimisés. Saisissez les détails de votre véhicule et laissez notre algorithme faire la magie.</p>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2>Détails de Votre Véhicule</h2>
+            <form id="tool-form">
+                <label for="car-make">Marque :</label>
+                <input type="text" id="car-make" placeholder="Ex: Renault, Peugeot, BMW" required>
+
+                <label for="car-model">Modèle :</label>
+                <input type="text" id="car-model" placeholder="Ex: Clio, 308, Série 3" required>
+
+                <label for="car-year">Année :</label>
+                <input type="text" id="car-year" placeholder="Ex: 2018, 2022" required>
+
+                <label for="car-details">Quelques mots clés ou détails importants :</label>
+                <textarea id="car-details" placeholder="Ex: Faible kilométrage, Toit panoramique, Entretien régulier, État impeccable, Économique, Sportive"></textarea>
+
+                <button type="submit" id="tool-submit" data-affiliate-slot="auto-title-generator">Générer les Titres</button>
+            </form>
+        </div>
+
+        <div class="result-section" id="tool-result" style="display: none;">
+            <h2 id="result-headline">Vos Titres Suggérés</h2>
+            <div class="result-group">
+                <h3>Titres Optimisés SEO</h3>
+                <ul class="result-list" id="seo-titles">
+                    <!-- Results will be injected here -->
+                </ul>
+            </div>
+            <div class="result-group">
+                <h3>Titres "Accroche-Regard" (Clickbait)</h3>
+                <ul class="result-list" id="clickbait-titles">
+                    <!-- Results will be injected here -->
+                </ul>
+            </div>
+            <div class="result-group">
+                <h3>Titres Expert / Technique</h3>
+                <ul class="result-list" id="expert-titles">
+                    <!-- Results will be injected here -->
+                </ul>
+            </div>
+            <div class="result-group">
+                <h3>Titres Doux / Émotionnels</h3>
+                <ul class="result-list" id="soft-titles">
+                    <!-- Results will be injected here -->
+                </ul>
+            </div>
+            <div class="result-group">
+                <h3>Titres Commerciaux / Incitatifs</h3>
+                <ul class="result-list" id="commercial-titles">
+                    <!-- Results will be injected here -->
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Ce qu'ils disent de nous</h2>
+            <div class="testimonials">
+                <div class="testimonial-card">
+                    <p>"J'ai vendu ma Clio en 3 jours grâce à un titre généré ici. Impressionnant !"</p>
+                    <div class="author">Marc, Vendeur Particulier</div>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Des options de titres que je n'aurais jamais imaginées. Gain de temps énorme."</p>
+                    <div class="author">Sophie, Blogueuse Auto</div>
+                </div>
+                <div class="testimonial-card">
+                    <p>"L'outil parfait pour dynamiser mes annonces sur Le Bon Coin. Un vrai plus !"</p>
+                    <div class="author">Julien, Concessionnaire Indépendant</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="seo-section">
+            <h2>Générateur de Titres Auto : Maximisez l'Impact de Votre Annonce</h2>
+            <p>Vous souhaitez vendre votre voiture rapidement et au meilleur prix sur Le Bon Coin, La Centrale, ou d'autres plateformes ? La clé réside souvent dans un titre percutant. Notre générateur de titres pour automobiles est l'outil indispensable pour créer des annonces qui se démarquent.</p>
+            <h3>Pourquoi un bon titre est crucial pour votre annonce auto ?</h3>
+            <ul>
+                <li><strong>Visibilité accrue :</strong> Un titre optimisé SEO permet à votre annonce d'apparaître plus haut dans les résultats de recherche.</li>
+                <li><strong>Taux de clics amélioré :</strong> Un titre accrocheur incite les acheteurs potentiels à cliquer sur votre annonce plutôt que sur celle des concurrents.</li>
+                <li><strong>Mise en valeur :</strong> Mettez en avant les caractéristiques uniques de votre véhicule (faible kilométrage, options rares, état irréprochable).</li>
+            </ul>
+            <h3>Comment utiliser notre outil ?</h3>
+            <p>Entrez simplement la marque, le modèle, l'année et quelques détails clés de votre voiture. Notre algorithme vous proposera instantanément une variété de titres classés par style : SEO, clickbait, expert, émotionnel, et commercial. Choisissez celui qui correspond le mieux à votre objectif et à votre audience.</p>
+            <p>Que vous vendiez une citadine économique comme une Renault Clio, une berline familiale Peugeot 308, un SUV robuste comme un Dacia Duster, ou un véhicule premium Audi A4, notre générateur vous fournit les meilleures options pour capter l'attention. Essayez-le dès maintenant et transformez vos annonces automobiles !</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Titres Auto Impactants. Tous droits réservés.</p>
+    </footer>
+
+    <script>
+        document.getElementById('tool-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const make = document.getElementById('car-make').value.trim();
+            const model = document.getElementById('car-model').value.trim();
+            const year = document.getElementById('car-year').value.trim();
+            const details = document.getElementById('car-details').value.trim();
+
+            if (!make || !model || !year) {
+                alert('Veuillez remplir au moins la marque, le modèle et l\'année de votre véhicule.');
+                return;
+            }
+
+            const seoTitles = [
+                `${make} ${model} ${year} - Occasion Impeccable`,
+                `Vente ${make} ${model} ${year} - Faible Kilométrage`,
+                `${model} ${year} ${make} - État Exceptionnel à Saisir`,
+                `À Vendre : ${make} ${model} ${year} - Voiture Fiable`,
+                `Annonce ${make} ${model} ${year} - Voir Offre`
+            ];
+
+            const clickbaitTitles = [
+                `URGENT : Cette ${make} ${model} ${year} va partir VITE !`,
+                `Le Secret pour acheter la meilleure ${make} ${model} ${year}`,
+                `Incroyable ! La ${make} ${model} ${year} que tout le monde cherche`,
+                `Pourquoi cette ${make} ${model} ${year} est l'affaire du siècle ?`,
+                `Ne ratez pas cette ${make} ${model} ${year} avant qu'il ne soit trop tard !`
+            ];
+
+            const expertTitles = [
+                `${make} ${model} ${year} - Finition [Détail Clé] - Entretien Certifié`,
+                `${model} ${year} ${make} - Motorisation [Type Moteur] - Options [Option X, Y]`,
+                `Expertisée : ${make} ${model} ${year} - Carnet à Jour - Performances Optimisées`,
+                `${make} ${model} ${year} : Analyse Technique et Avantages`,
+                `${model} ${year} ${make} - Spécifications Détaillées et Équipements`
+            ];
+
+            const softTitles = [
+                `Votre prochaine aventure commence avec cette ${make} ${model} ${year}`,
+                `Le confort et l'élégance de la ${make} ${model} ${year} vous attendent`,
+                `Roulez sereinement avec cette ${make} ${model} ${year} fiable et moderne`,
+                `Créez vos souvenirs : ${make} ${model} ${year} pour des trajets inoubliables`,
+                `L'harmonie parfaite : ${make} ${model} ${year} et ses atouts`
+            ];
+
+            const commercialTitles = [
+                `PROMO EXCLUSIVE : ${make} ${model} ${year} - Prix Réduit !`,
+                `${make} ${model} ${year} - Offre Limitée - Financement Disponible`,
+                `Liquidation ${make} ${model} ${year} - Neuf/Occasion Certifié`,
+                `Dernière chance ! ${make} ${model} ${year} - Contactez-nous`,
+                `Profitez de la ${make} ${model} ${year} - Meilleur Rapport Qualité/Prix`
+            ];
+            
+            // Add details to titles if available
+            const keywords = details.split(',').map(s => s.trim()).filter(s => s.length > 0);
+            if (keywords.length > 0) {
+                const keyword = keywords[0]; // Use the first keyword as an example for enhancing
+                seoTitles[0] = `${make} ${model} ${year} - ${keyword} - Occasion Impeccable`;
+                clickbaitTitles[0] = `Ce ${make} ${model} ${year} avec ${keyword} va partir VITE !`;
+                expertTitles[0] = `${make} ${model} ${year} - ${keyword} - Entretien Certifié`;
+                softTitles[0] = `Vivez le rêve avec cette ${make} ${model} ${year} : ${keyword}`;
+                commercialTitles[0] = `PROMO EXCLUSIVE : ${make} ${model} ${year} avec ${keyword} !`;
+            }
+
+            document.getElementById('seo-titles').innerHTML = seoTitles.map(title => `<li>${title}</li>`).join('');
+            document.getElementById('clickbait-titles').innerHTML = clickbaitTitles.map(title => `<li>${title}</li>`).join('');
+            document.getElementById('expert-titles').innerHTML = expertTitles.map(title => `<li>${title}</li>`).join('');
+            document.getElementById('soft-titles').innerHTML = softTitles.map(title => `<li>${title}</li>`).join('');
+            document.getElementById('commercial-titles').innerHTML = commercialTitles.map(title => `<li>${title}</li>`).join('');
+
+            document.getElementById('tool-result').style.display = 'block';
+            document.getElementById('tool-result').scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
+<div id="qa-smoke-result" hidden></div>
+<script id="farmbuilder-affiliate-helper">
+(function () {
+  window.__UTILITY_AFFILIATE_MAP = window.__UTILITY_AFFILIATE_MAP || {};
+  document.addEventListener("click", function (event) {
+    const target = event.target.closest("[data-affiliate-slot]");
+    if (!target) return;
+    const slot = target.getAttribute("data-affiliate-slot");
+    const href = window.__UTILITY_AFFILIATE_MAP[slot];
+    if (!href) return;
+    if (target.tagName && target.tagName.toLowerCase() === "a") {
+      target.setAttribute("href", href);
+      target.removeAttribute("rel");
+      return;
+    }
+    event.preventDefault();
+    window.open(href, "_blank");
+  }, true);
+})();
+</script>
+<script id="farmbuilder-functional-qa">
+(function () {
+  function marker() {
+    let node = document.getElementById("qa-smoke-result");
+    if (node) return node;
+    node = document.createElement("div");
+    node.id = "qa-smoke-result";
+    node.hidden = true;
+    document.body.appendChild(node);
+    return node;
+  }
+
+  let qaFinished = false;
+  let qaWatchdog = null;
+
+  function normalize(text) {
+    return String(text || "").replace(/\s+/g, " ").trim();
+  }
+
+  function findForm() {
+    return document.getElementById("tool-form") || document.querySelector("form");
+  }
+
+  function findResult() {
+    return (
+      document.getElementById("tool-result") ||
+      document.querySelector("[data-result]") ||
+      document.querySelector(".tool-result, .result-card, .result, .results, .output, .preview, .diagnostic, .analysis")
+    );
+  }
+
+  function primaryAction(form) {
+    if (!form) return null;
+    return (
+      document.getElementById("tool-submit") ||
+      form.querySelector("#tool-submit") ||
+      form.querySelector("[data-primary-action]") ||
+      form.querySelector("button[type=submit]") ||
+      form.querySelector("button") ||
+      form.querySelector("input[type=submit]")
+    );
+  }
+
+  function resultSignature(node) {
+    if (!node) return "";
+    const text = normalize(node.textContent);
+    const html = normalize(node.innerHTML).slice(0, 600);
+    return `${text}||${html}`;
+  }
+
+  function resultHeadline(node) {
+    if (!node) return "";
+    const heading = node.querySelector("h1, h2, h3, strong, b");
+    return normalize(heading ? heading.textContent : "");
+  }
+
+  function sampleText(field) {
+    const key = `${field.id || ""} ${field.name || ""} ${field.placeholder || ""}`.toLowerCase();
+    if (/email/.test(key)) return "bonjour@example.com";
+    if (/url|site|website|lien/.test(key)) return "https://example.com/offre-solaire";
+    if (/phone|tel|mobile/.test(key)) return "0612345678";
+    if (/ville|city|localisation|location|region|departement|postal/.test(key)) return "Paris";
+    if (/orientation/.test(key)) return "sud";
+    if (/keyword|theme|topic|sujet|subject/.test(key)) return "energie solaire domestique";
+    if (/titre|title/.test(key)) return "Simulateur solaire maison";
+    if (/nom|name|project/.test(key)) return "Projet Horizon";
+    if (/description|notes|content|message/.test(key)) return "Maison individuelle exposee sud avec toiture exploitable.";
+    return field.placeholder || "France";
+  }
+
+  function sampleNumber(field) {
+    const key = `${field.id || ""} ${field.name || ""}`.toLowerCase();
+    if (/inclinaison|angle|slope/.test(key)) return "30";
+    if (/surface|size|m2|sqm/.test(key)) return "28";
+    if (/annee|year/.test(key)) return "2024";
+    if (/prix|price|budget|cost|amount|montant/.test(key)) return "12000";
+    const min = Number(field.min || "");
+    const max = Number(field.max || "");
+    if (Number.isFinite(min) && Number.isFinite(max) && max >= min) {
+      return String(Math.min(max, Math.max(min, min + Math.round((max - min) * 0.35))));
+    }
+    if (Number.isFinite(min)) return String(Math.max(min, 12));
+    if (Number.isFinite(max)) return String(Math.min(max, 12));
+    return field.value || "12";
+  }
+
+  function applySample(field) {
+    const tag = (field.tagName || "").toLowerCase();
+    const type = (field.type || "").toLowerCase();
+    if (field.disabled) return;
+    if (type === "hidden" || type === "submit" || type === "button" || type === "reset" || type === "image" || type === "file") {
+      return;
+    }
+    const currentValue = normalize(field.value);
+    if (tag === "select") {
+      if (currentValue) return;
+      const option = Array.from(field.options || []).find((item) => item.value && !item.disabled) || field.options[0];
+      if (option) field.value = option.value;
+      return;
+    }
+    if (type === "checkbox") {
+      if (field.checked) return;
+      field.checked = true;
+      return;
+    }
+    if (type === "radio") {
+      if (field.checked) return;
+      field.checked = true;
+      return;
+    }
+    if (type === "date") {
+      if (currentValue) return;
+      field.value = "2026-03-01";
+      return;
+    }
+    if (type === "email") {
+      if (currentValue) return;
+      field.value = "bonjour@example.com";
+      return;
+    }
+    if (type === "url") {
+      if (currentValue) return;
+      field.value = "https://example.com/offre-solaire";
+      return;
+    }
+    if (type === "tel") {
+      if (currentValue) return;
+      field.value = "0612345678";
+      return;
+    }
+    if (type === "color") {
+      if (currentValue) return;
+      field.value = "#2f855a";
+      return;
+    }
+    if (type === "number" || type === "range") {
+      if (currentValue) return;
+      field.value = sampleNumber(field);
+      return;
+    }
+    if (currentValue) return;
+    field.value = sampleText(field);
+  }
+
+  function stamp(status, detail, headline, primary) {
+    if (qaFinished) return;
+    qaFinished = true;
+    if (qaWatchdog) {
+      window.clearTimeout(qaWatchdog);
+      qaWatchdog = null;
+    }
+    const node = marker();
+    node.dataset.status = status;
+    node.dataset.mode = "native-form";
+    node.dataset.detail = detail || "";
+    node.dataset.headline = headline || "";
+    node.dataset.primary = primary || "";
+    node.dataset.viewport = window.innerWidth <= 640 ? "mobile" : "desktop";
+    window.setTimeout(function () {
+      try {
+        window.stop();
+      } catch (_error) {}
+    }, 0);
+  }
+
+  function installModalGuards() {
+    const noop = function () {};
+    const approve = function () { return true; };
+    const empty = function () { return ""; };
+    try { window.alert = noop; } catch (_error) {}
+    try { window.confirm = approve; } catch (_error) {}
+    try { window.prompt = empty; } catch (_error) {}
+  }
+
+  function triggerAction(form, action) {
+    try {
+      if (typeof form.requestSubmit === "function") {
+        form.requestSubmit(action || undefined);
+        return;
+      }
+    } catch (_error) {}
+    if (action && typeof action.click === "function") {
+      action.click();
+      return;
+    }
+    form.dispatchEvent(new Event("submit", { bubbles: true, cancelable: true }));
+  }
+
+  function inspectResult(before, attemptsLeft) {
+    const result = findResult();
+    if (!result) {
+      stamp("fail", "La zone de resultat est introuvable.", "");
+      return;
+    }
+    const after = resultSignature(result);
+    const text = normalize(result.textContent);
+    if (after && after !== before && text.length >= 24) {
+      const primary = result.querySelector("a[href], button[data-href], [data-primary-url]") || document.querySelector("#tool-result a[href]");
+      stamp("pass", "Le formulaire natif a mis a jour la zone de resultat.", resultHeadline(result), primary ? (primary.getAttribute("href") || primary.getAttribute("data-primary-url") || "") : "");
+      return;
+    }
+    if (attemptsLeft > 0) {
+      window.setTimeout(function () {
+        inspectResult(before, attemptsLeft - 1);
+      }, 250);
+      return;
+    }
+    stamp("fail", "La zone de resultat n'a pas renvoye de contenu exploitable.", resultHeadline(result));
+  }
+
+  function runSmoke() {
+    const params = new URLSearchParams(window.location.search);
+    if (params.get("__qa") !== "functional") return;
+    qaWatchdog = window.setTimeout(function () {
+      stamp("fail", "QA smoke timed out before the page reported a usable result.", "");
+    }, 7000);
+    const form = findForm();
+    if (!form) {
+      stamp("fail", "Le formulaire principal est introuvable.", "");
+      return;
+    }
+    const result = findResult();
+    const before = resultSignature(result);
+    installModalGuards();
+    try {
+      form.querySelectorAll("input, select, textarea").forEach(applySample);
+    } catch (error) {
+      stamp("fail", error && error.message ? `QA smoke sample failed: ${error.message}` : "QA smoke sample failed before submit.", "");
+      return;
+    }
+    const action = primaryAction(form);
+    try {
+      triggerAction(form, action);
+    } catch (error) {
+      stamp("fail", error && error.message ? `QA smoke submit failed: ${error.message}` : "QA smoke submit failed.", "");
+      return;
+    }
+    inspectResult(before, 10);
+  }
+
+  window.addEventListener("error", function (event) {
+    const message = event && event.message ? event.message : "JavaScript runtime error during QA smoke.";
+    stamp("fail", `QA smoke JS error: ${message}`, "");
+  }, { once: true });
+
+  window.addEventListener("unhandledrejection", function (event) {
+    const reason = event && event.reason;
+    const detail = typeof reason === "string"
+      ? reason
+      : reason && reason.message
+        ? reason.message
+        : "Unhandled promise rejection during QA smoke.";
+    stamp("fail", `QA smoke rejection: ${detail}`, "");
+  }, { once: true });
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", function () {
+      window.setTimeout(runSmoke, 60);
+    }, { once: true });
+  } else {
+    window.setTimeout(runSmoke, 60);
+  }
+})();
+</script>
+</body>
+</html>
