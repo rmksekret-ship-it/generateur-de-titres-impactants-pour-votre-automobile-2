@@ -1,0 +1,298 @@
+{
+  "run_id": "run-1781140089096",
+  "job_index": 2,
+  "params": {
+    "owner_user_id": "user-1774825923424-663",
+    "owner_username": "inso",
+    "owner_display_name": "Inso",
+    "count": 3,
+    "archetype": "calculator",
+    "market": "France",
+    "language": "fr",
+    "country": "FR",
+    "brief": "",
+    "notes": "",
+    "import_notes": "",
+    "growth_job_id": "",
+    "growth_slug": "",
+    "growth_kind": "",
+    "external_site_request_id": "",
+    "external_client_ref": "",
+    "external_source_label": "",
+    "dashboard_mode": "builder",
+    "network_site_format": "forum",
+    "network_primary_topic": "",
+    "network_primary_geo": "",
+    "network_domain_pool": "",
+    "network_hosting_pool": "",
+    "network_dns_strategy": "auto_pool_assign",
+    "network_domain_flow": "manual",
+    "network_content_strategy": "",
+    "network_model_concept": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_seo": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_build": "google/gemini-2.5-flash",
+    "network_model_qa": "anthropic/claude-haiku-4.5",
+    "network_model_growth": "google/gemini-2.5-flash-lite:nitro",
+    "network_blueprint_id": "",
+    "mode": "production",
+    "run_kind": "generated_batch",
+    "publish_target": "render",
+    "requested_publish_target": "render",
+    "provider_space_id": "new-sites",
+    "provider_space_name": "New Sites",
+    "allow_url_fallback": false,
+    "railway_project_id_override": "",
+    "railway_environment_id_override": "",
+    "railway_service_id_override": "",
+    "railway_service_name_override": "",
+    "github_repo_private": false,
+    "stage_models": {
+      "ideation": "google/gemini-2.5-flash-lite:nitro",
+      "spec": "google/gemini-2.5-flash",
+      "copy": "google/gemini-2.5-flash-lite:nitro",
+      "qa": "anthropic/claude-haiku-4.5",
+      "escalation": "anthropic/claude-sonnet-4.6"
+    },
+    "archetype_display": "calculator",
+    "archetype_mix": [
+      "calculator"
+    ]
+  },
+  "site_spec": {
+    "slug": "generateur-de-titres-impactants-pour-votre-automobile-2",
+    "theme": {
+      "name": "Blueprint Wire",
+      "slug": "blueprint-wire",
+      "eyebrow": "Technical Draft",
+      "family": "blueprint-wire",
+      "moods": [
+        "technical",
+        "precise",
+        "drafted",
+        "systemic"
+      ],
+      "archetypes": [
+        "tool",
+        "calculator"
+      ],
+      "niches": [
+        "estimators",
+        "engineering tools",
+        "developer tools",
+        "ops",
+        "qa"
+      ],
+      "keywords": [
+        "blueprint",
+        "wire",
+        "draft",
+        "precision",
+        "plan"
+      ],
+      "token_index": [
+        "blueprint",
+        "calculator",
+        "developer",
+        "draft",
+        "drafted",
+        "engineering",
+        "estimators",
+        "ops",
+        "plan",
+        "precise",
+        "precision",
+        "systemic",
+        "technical",
+        "tool",
+        "tools",
+        "wire"
+      ],
+      "font_embed": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap",
+      "display_font": "\"JetBrains Mono\", monospace",
+      "body_font": "\"Inter\", sans-serif",
+      "layout": "swiss",
+      "card_style": "outline",
+      "button_style": "outline",
+      "decor_style": "grid",
+      "hero_template": "1fr 1fr",
+      "seo_template": "1.45fr 0.55fr",
+      "feature_columns": 3,
+      "faq_columns": 4,
+      "hero_min_height": "78vh",
+      "panel_radius": "28px",
+      "card_radius": "26px",
+      "chip_radius": "999px",
+      "button_radius": "18px",
+      "outline_width": "1px",
+      "backdrop_blur": "0px",
+      "palette": {
+        "bg": "linear-gradient(145deg, #0c2340 0%, #163d72 100%)",
+        "surface": "rgba(9, 25, 48, 0.78)",
+        "surface_border": "rgba(125,211,252,0.18)",
+        "text": "#e6f1ff",
+        "muted": "#aac4e8",
+        "accent": "#7dd3fc",
+        "accent_alt": "#f8fafc",
+        "hero_glow": "rgba(125, 211, 252, 0.2)",
+        "button_text": "#082033",
+        "panel_alt": "rgba(255,255,255,0.04)",
+        "shadow": "0 28px 88px rgba(2, 12, 29, 0.36)",
+        "input_fill": "rgba(255,255,255,0.05)"
+      }
+    },
+    "structure": {
+      "name": "Bento Signal",
+      "slug": "bento-signal",
+      "hero_variant": "command",
+      "proof_variant": "badges",
+      "section_order": [
+        "proof",
+        "features",
+        "seo",
+        "faq"
+      ],
+      "feature_columns": 4,
+      "faq_columns": 2,
+      "family": "modular-grid",
+      "moods": [
+        "modular",
+        "curated",
+        "technical"
+      ],
+      "archetypes": [
+        "tool",
+        "generator",
+        "calculator"
+      ],
+      "niches": [
+        "ai tools",
+        "dashboards",
+        "productivity",
+        "research"
+      ],
+      "keywords": [
+        "bento",
+        "cards",
+        "signal",
+        "system"
+      ],
+      "token_index": [
+        "badges",
+        "bento",
+        "calculator",
+        "cards",
+        "command",
+        "curated",
+        "dashboards",
+        "faq",
+        "features",
+        "generator",
+        "grid",
+        "modular",
+        "productivity",
+        "proof",
+        "research",
+        "seo",
+        "signal",
+        "system",
+        "technical",
+        "tool",
+        "tools"
+      ]
+    },
+    "render_direction": "signal-bento",
+    "render_direction_name": "Signal Bento",
+    "page_blueprint": "magazine-fold",
+    "page_blueprint_name": "Magazine Fold",
+    "title": "Générateur de Titres Impactants pour Votre Automobile",
+    "tagline": "Détails de Votre Véhicule",
+    "description": "Attirez l'attention sur votre annonce ou article avec des titres captivants et optimisés. Saisissez les détails de votre véhicule et laissez notre algorithme faire la magie.",
+    "feature_prefix": "Bloc",
+    "action": "Utiliser l'outil",
+    "cta_primary": "Générer les Titres",
+    "cta_secondary": "Consulter la FAQ",
+    "inputs": [
+      {
+        "id": "amount",
+        "label": "Montant de base",
+        "type": "number",
+        "placeholder": "7500",
+        "weight": 1.0
+      },
+      {
+        "id": "duration",
+        "label": "Durée estimée",
+        "type": "number",
+        "placeholder": "12",
+        "weight": 0.42
+      },
+      {
+        "id": "plan",
+        "label": "Niveau de service",
+        "type": "select",
+        "options": [
+          {
+            "label": "Essentiel",
+            "value": 1.0
+          },
+          {
+            "label": "Performance",
+            "value": 1.18
+          },
+          {
+            "label": "Premium",
+            "value": 1.34
+          }
+        ],
+        "weight": 1.0
+      }
+    ],
+    "hero_metrics": [
+      {
+        "value": "Signal Bento",
+        "label": "Cadence"
+      },
+      {
+        "value": "3",
+        "label": "Entrées"
+      },
+      {
+        "value": "Résultat recommandé",
+        "label": "Sortie"
+      }
+    ],
+    "trust_labels": [
+      "Signal Bento",
+      "Générer les Titres",
+      "Résultat recommandé",
+      "Utilitaire immédiat",
+      "Structure SEO claire"
+    ],
+    "result_label": "Résultat recommandé",
+    "result_unit": "EUR",
+    "runtime_mode": "generic_calculator",
+    "page_variant": "console",
+    "faq_topic": "estimation rapide",
+    "faq_entries": [
+      {
+        "question": "Pourquoi utiliser cet outil pour estimation rapide ?",
+        "answer": "Il aide à cadrer le besoin rapidement et à orienter vers une prochaine action claire sur le marché France."
+      },
+      {
+        "question": "Le résultat est-il immédiat ?",
+        "answer": "Oui. L'interface est pensée pour une réponse rapide, lisible et exploitable dès la première interaction."
+      },
+      {
+        "question": "Cette page est-elle adaptée au SEO ?",
+        "answer": "Oui. La structure mélange utilité, clarté éditoriale et signaux de confiance sans surcharger l'expérience."
+      }
+    ],
+    "seo_paragraphs": [
+      "Cette page capte une intention forte autour de estimation rapide et la transforme en action utile pour un public situé sur France.",
+      "Le format hero-first accélère la compréhension, réduit les frictions et améliore la lisibilité sur mobile comme sur desktop.",
+      "Le socle reste volontairement simple pour faciliter les tests, la QA continue et les variations SEO."
+    ],
+    "document_html": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Générateur de Titres Impactants pour Votre Automobile | Détails de Votre Véhicule</title>\n    <style>\n        :root {\n            --color-primary: #70b7b5;\n            --color-primary-light: #a4d2d1;\n            --color-secondary: #333;\n            --color-text: #555;\n            --color-bg: #f8f8f8;\n            --color-card-bg: #fff;\n            --color-border: #eee;\n            --font-sans: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;\n        }\n\n        body {\n            font-family: var(--font-sans);\n            line-height: 1.6;\n            color: var(--color-text);\n            background-color: var(--color-bg);\n            margin: 0;\n            padding: 0;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            min-height: 100vh;\n        }\n\n        .container {\n            width: 100%;\n            max-width: 1200px;\n            margin: 20px auto;\n            padding: 0 20px;\n            box-sizing: border-box;\n        }\n\n        header {\n            background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));\n            color: #fff;\n            padding: 40px 20px;\n            text-align: center;\n            border-bottom: 5px solid var(--color-primary);\n            width: 100%;\n            box-sizing: border-box;\n            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);\n        }\n\n        header h1 {\n            margin: 0 0 10px;\n            font-size: 2.8em;\n            font-weight: 600;\n        }\n\n        header p {\n            font-size: 1.2em;\n            opacity: 0.9;\n            max-width: 700px;\n            margin: 0 auto;\n        }\n\n        .section {\n            background-color: var(--color-card-bg);\n            border-radius: 8px;\n            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);\n            padding: 30px;\n            margin-bottom: 30px;\n            border: 1px solid var(--color-border);\n        }\n\n        .section h2 {\n            color: var(--color-primary);\n            font-size: 2em;\n            margin-top: 0;\n            margin-bottom: 20px;\n            border-bottom: 2px solid var(--color-primary-light);\n            padding-bottom: 10px;\n        }\n\n        form label {\n            display: block;\n            margin-bottom: 8px;\n            font-weight: 600;\n            color: var(--color-secondary);\n        }\n\n        form input[type=\"text\"],\n        form textarea {\n            width: calc(100% - 20px);\n            padding: 12px;\n            margin-bottom: 20px;\n            border: 1px solid var(--color-border);\n            border-radius: 5px;\n            font-size: 1em;\n            box-sizing: border-box;\n        }\n\n        form textarea {\n            resize: vertical;\n            min-height: 100px;\n        }\n\n        form button {\n            background-color: var(--color-primary);\n            color: white;\n            padding: 14px 25px;\n            border: none;\n            border-radius: 5px;\n            cursor: pointer;\n            font-size: 1.1em;\n            font-weight: 600;\n            transition: background-color 0.3s ease;\n            display: block;\n            width: auto;\n            margin-left: auto;\n            margin-right: auto;\n        }\n\n        form button:hover {\n            background-color: var(--color-primary-light);\n        }\n\n        .result-section {\n            background-color: var(--color-card-bg);\n            border-radius: 8px;\n            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);\n            padding: 30px;\n            margin-bottom: 30px;\n            border: 1px solid var(--color-border);\n        }\n\n        .result-section h2 {\n            color: var(--color-primary);\n            font-size: 2em;\n            margin-top: 0;\n            margin-bottom: 20px;\n            border-bottom: 2px solid var(--color-primary-light);\n            padding-bottom: 10px;\n        }\n\n        .result-group {\n            margin-bottom: 25px;\n            border-left: 4px solid var(--color-primary);\n            padding-left: 15px;\n        }\n\n        .result-group h3 {\n            color: var(--color-secondary);\n            font-size: 1.4em;\n            margin-top: 0;\n            margin-bottom: 10px;\n        }\n\n        .result-list {\n            list-style: none;\n            padding: 0;\n            margin: 0;\n        }\n\n        .result-list li {\n            background-color: #f0fafa;\n            border: 1px solid #d4eded;\n            padding: 10px 15px;\n            margin-bottom: 8px;\n            border-radius: 4px;\n            font-size: 1.05em;\n            color: #333;\n        }\n\n        .testimonials {\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\n            gap: 25px;\n        }\n\n        .testimonial-card {\n            background-color: #fdfdfd;\n            padding: 25px;\n            border-radius: 8px;\n            border: 1px solid #e0e0e0;\n            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.03);\n            text-align: center;\n        }\n\n        .testimonial-card p {\n            font-style: italic;\n            margin-bottom: 15px;\n            color: #666;\n        }\n\n        .testimonial-card .author {\n            font-weight: 600;\n            color: var(--color-secondary);\n        }\n\n        footer {\n            background-color: var(--color-secondary);\n            color: #fff;\n            padding: 30px 20px;\n            text-align: center;\n            width: 100%;\n            box-sizing: border-box;\n            margin-top: 40px;\n            font-size: 0.9em;\n        }\n\n        footer p {\n            margin: 0;\n            opacity: 0.8;\n        }\n\n        .seo-section {\n            background-color: var(--color-card-bg);\n            border-radius: 8px;\n            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);\n            padding: 30px;\n            margin-top: 30px;\n            border: 1px solid var(--color-border);\n            text-align: left;\n        }\n\n        .seo-section h2 {\n            color: var(--color-primary);\n            font-size: 1.8em;\n            margin-top: 0;\n            margin-bottom: 15px;\n            border-bottom: 2px solid var(--color-primary-light);\n            padding-bottom: 10px;\n        }\n\n        .seo-section p {\n            margin-bottom: 1em;\n        }\n\n        .seo-section ul {\n            list-style: disc inside;\n            padding-left: 20px;\n        }\n\n        .seo-section li {\n            margin-bottom: 0.5em;\n        }\n    </style>\n    <meta name=\"description\" content=\"Attirez l&#x27;attention sur votre annonce ou article avec des titres captivants et optimisés. Saisissez les détails de votre véhicule et laissez notre algorithme faire la magie.\">\n    <meta name=\"robots\" content=\"index, follow\">\n    <link rel=\"canonical\" href=\"https://generateur-de-titres-impactants-pour-votre-automobile-2.onrender.com\">\n    <meta property=\"og:title\" content=\"Générateur de Titres Impactants pour Votre Automobile\">\n    <meta property=\"og:description\" content=\"Attirez l&#x27;attention sur votre annonce ou article avec des titres captivants et optimisés. Saisissez les détails de votre véhicule et laissez notre algorithme faire la magie.\">\n    <meta property=\"og:url\" content=\"https://generateur-de-titres-impactants-pour-votre-automobile-2.onrender.com\">\n    <meta property=\"og:type\" content=\"website\">\n    <script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebApplication\", \"name\": \"Générateur de Titres Impactants pour Votre Automobile\", \"description\": \"Attirez l'attention sur votre annonce ou article avec des titres captivants et optimisés. Saisissez les détails de votre véhicule et laissez notre algorithme faire la magie.\", \"url\": \"https://generateur-de-titres-impactants-pour-votre-automobile-2.onrender.com\", \"applicationCategory\": \"UtilityApplication\", \"operatingSystem\": \"Web Browser\"}</script>\n</head>\n<body data-site-slug=\"generateur-de-titres-impactants-pour-votre-automobile-2\" data-runtime-mode=\"generic_calculator\">\n    <header>\n        <h1>Générateur de Titres Impactants pour Votre Automobile</h1>\n        <p>Attirez l'attention sur votre annonce ou article avec des titres captivants et optimisés. Saisissez les détails de votre véhicule et laissez notre algorithme faire la magie.</p>\n    </header>\n\n    <div class=\"container\">\n        <div class=\"section\">\n            <h2>Détails de Votre Véhicule</h2>\n            <form id=\"tool-form\">\n                <label for=\"car-make\">Marque :</label>\n                <input type=\"text\" id=\"car-make\" placeholder=\"Ex: Renault, Peugeot, BMW\" required>\n\n                <label for=\"car-model\">Modèle :</label>\n                <input type=\"text\" id=\"car-model\" placeholder=\"Ex: Clio, 308, Série 3\" required>\n\n                <label for=\"car-year\">Année :</label>\n                <input type=\"text\" id=\"car-year\" placeholder=\"Ex: 2018, 2022\" required>\n\n                <label for=\"car-details\">Quelques mots clés ou détails importants :</label>\n                <textarea id=\"car-details\" placeholder=\"Ex: Faible kilométrage, Toit panoramique, Entretien régulier, État impeccable, Économique, Sportive\"></textarea>\n\n                <button type=\"submit\" id=\"tool-submit\" data-affiliate-slot=\"auto-title-generator\">Générer les Titres</button>\n            </form>\n        </div>\n\n        <div class=\"result-section\" id=\"tool-result\" style=\"display: none;\">\n            <h2 id=\"result-headline\">Vos Titres Suggérés</h2>\n            <div class=\"result-group\">\n                <h3>Titres Optimisés SEO</h3>\n                <ul class=\"result-list\" id=\"seo-titles\">\n                    <!-- Results will be injected here -->\n                </ul>\n            </div>\n            <div class=\"result-group\">\n                <h3>Titres \"Accroche-Regard\" (Clickbait)</h3>\n                <ul class=\"result-list\" id=\"clickbait-titles\">\n                    <!-- Results will be injected here -->\n                </ul>\n            </div>\n            <div class=\"result-group\">\n                <h3>Titres Expert / Technique</h3>\n                <ul class=\"result-list\" id=\"expert-titles\">\n                    <!-- Results will be injected here -->\n                </ul>\n            </div>\n            <div class=\"result-group\">\n                <h3>Titres Doux / Émotionnels</h3>\n                <ul class=\"result-list\" id=\"soft-titles\">\n                    <!-- Results will be injected here -->\n                </ul>\n            </div>\n            <div class=\"result-group\">\n                <h3>Titres Commerciaux / Incitatifs</h3>\n                <ul class=\"result-list\" id=\"commercial-titles\">\n                    <!-- Results will be injected here -->\n                </ul>\n            </div>\n        </div>\n\n        <div class=\"section\">\n            <h2>Ce qu'ils disent de nous</h2>\n            <div class=\"testimonials\">\n                <div class=\"testimonial-card\">\n                    <p>\"J'ai vendu ma Clio en 3 jours grâce à un titre généré ici. Impressionnant !\"</p>\n                    <div class=\"author\">Marc, Vendeur Particulier</div>\n                </div>\n                <div class=\"testimonial-card\">\n                    <p>\"Des options de titres que je n'aurais jamais imaginées. Gain de temps énorme.\"</p>\n                    <div class=\"author\">Sophie, Blogueuse Auto</div>\n                </div>\n                <div class=\"testimonial-card\">\n                    <p>\"L'outil parfait pour dynamiser mes annonces sur Le Bon Coin. Un vrai plus !\"</p>\n                    <div class=\"author\">Julien, Concessionnaire Indépendant</div>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"seo-section\">\n            <h2>Générateur de Titres Auto : Maximisez l'Impact de Votre Annonce</h2>\n            <p>Vous souhaitez vendre votre voiture rapidement et au meilleur prix sur Le Bon Coin, La Centrale, ou d'autres plateformes ? La clé réside souvent dans un titre percutant. Notre générateur de titres pour automobiles est l'outil indispensable pour créer des annonces qui se démarquent.</p>\n            <h3>Pourquoi un bon titre est crucial pour votre annonce auto ?</h3>\n            <ul>\n                <li><strong>Visibilité accrue :</strong> Un titre optimisé SEO permet à votre annonce d'apparaître plus haut dans les résultats de recherche.</li>\n                <li><strong>Taux de clics amélioré :</strong> Un titre accrocheur incite les acheteurs potentiels à cliquer sur votre annonce plutôt que sur celle des concurrents.</li>\n                <li><strong>Mise en valeur :</strong> Mettez en avant les caractéristiques uniques de votre véhicule (faible kilométrage, options rares, état irréprochable).</li>\n            </ul>\n            <h3>Comment utiliser notre outil ?</h3>\n            <p>Entrez simplement la marque, le modèle, l'année et quelques détails clés de votre voiture. Notre algorithme vous proposera instantanément une variété de titres classés par style : SEO, clickbait, expert, émotionnel, et commercial. Choisissez celui qui correspond le mieux à votre objectif et à votre audience.</p>\n            <p>Que vous vendiez une citadine économique comme une Renault Clio, une berline familiale Peugeot 308, un SUV robuste comme un Dacia Duster, ou un véhicule premium Audi A4, notre générateur vous fournit les meilleures options pour capter l'attention. Essayez-le dès maintenant et transformez vos annonces automobiles !</p>\n        </div>\n    </div>\n\n    <footer>\n        <p>&copy; 2023 Titres Auto Impactants. Tous droits réservés.</p>\n    </footer>\n\n    <script>\n        document.getElementById('tool-form').addEventListener('submit', function(event) {\n            event.preventDefault();\n\n            const make = document.getElementById('car-make').value.trim();\n            const model = document.getElementById('car-model').value.trim();\n            const year = document.getElementById('car-year').value.trim();\n            const details = document.getElementById('car-details').value.trim();\n\n            if (!make || !model || !year) {\n                alert('Veuillez remplir au moins la marque, le modèle et l\\'année de votre véhicule.');\n                return;\n            }\n\n            const seoTitles = [\n                `${make} ${model} ${year} - Occasion Impeccable`,\n                `Vente ${make} ${model} ${year} - Faible Kilométrage`,\n                `${model} ${year} ${make} - État Exceptionnel à Saisir`,\n                `À Vendre : ${make} ${model} ${year} - Voiture Fiable`,\n                `Annonce ${make} ${model} ${year} - Voir Offre`\n            ];\n\n            const clickbaitTitles = [\n                `URGENT : Cette ${make} ${model} ${year} va partir VITE !`,\n                `Le Secret pour acheter la meilleure ${make} ${model} ${year}`,\n                `Incroyable ! La ${make} ${model} ${year} que tout le monde cherche`,\n                `Pourquoi cette ${make} ${model} ${year} est l'affaire du siècle ?`,\n                `Ne ratez pas cette ${make} ${model} ${year} avant qu'il ne soit trop tard !`\n            ];\n\n            const expertTitles = [\n                `${make} ${model} ${year} - Finition [Détail Clé] - Entretien Certifié`,\n                `${model} ${year} ${make} - Motorisation [Type Moteur] - Options [Option X, Y]`,\n                `Expertisée : ${make} ${model} ${year} - Carnet à Jour - Performances Optimisées`,\n                `${make} ${model} ${year} : Analyse Technique et Avantages`,\n                `${model} ${year} ${make} - Spécifications Détaillées et Équipements`\n            ];\n\n            const softTitles = [\n                `Votre prochaine aventure commence avec cette ${make} ${model} ${year}`,\n                `Le confort et l'élégance de la ${make} ${model} ${year} vous attendent`,\n                `Roulez sereinement avec cette ${make} ${model} ${year} fiable et moderne`,\n                `Créez vos souvenirs : ${make} ${model} ${year} pour des trajets inoubliables`,\n                `L'harmonie parfaite : ${make} ${model} ${year} et ses atouts`\n            ];\n\n            const commercialTitles = [\n                `PROMO EXCLUSIVE : ${make} ${model} ${year} - Prix Réduit !`,\n                `${make} ${model} ${year} - Offre Limitée - Financement Disponible`,\n                `Liquidation ${make} ${model} ${year} - Neuf/Occasion Certifié`,\n                `Dernière chance ! ${make} ${model} ${year} - Contactez-nous`,\n                `Profitez de la ${make} ${model} ${year} - Meilleur Rapport Qualité/Prix`\n            ];\n            \n            // Add details to titles if available\n            const keywords = details.split(',').map(s => s.trim()).filter(s => s.length > 0);\n            if (keywords.length > 0) {\n                const keyword = keywords[0]; // Use the first keyword as an example for enhancing\n                seoTitles[0] = `${make} ${model} ${year} - ${keyword} - Occasion Impeccable`;\n                clickbaitTitles[0] = `Ce ${make} ${model} ${year} avec ${keyword} va partir VITE !`;\n                expertTitles[0] = `${make} ${model} ${year} - ${keyword} - Entretien Certifié`;\n                softTitles[0] = `Vivez le rêve avec cette ${make} ${model} ${year} : ${keyword}`;\n                commercialTitles[0] = `PROMO EXCLUSIVE : ${make} ${model} ${year} avec ${keyword} !`;\n            }\n\n            document.getElementById('seo-titles').innerHTML = seoTitles.map(title => `<li>${title}</li>`).join('');\n            document.getElementById('clickbait-titles').innerHTML = clickbaitTitles.map(title => `<li>${title}</li>`).join('');\n            document.getElementById('expert-titles').innerHTML = expertTitles.map(title => `<li>${title}</li>`).join('');\n            document.getElementById('soft-titles').innerHTML = softTitles.map(title => `<li>${title}</li>`).join('');\n            document.getElementById('commercial-titles').innerHTML = commercialTitles.map(title => `<li>${title}</li>`).join('');\n\n            document.getElementById('tool-result').style.display = 'block';\n            document.getElementById('tool-result').scrollIntoView({ behavior: 'smooth' });\n        });\n    </script>\n<div id=\"qa-smoke-result\" hidden></div>\n<script id=\"farmbuilder-affiliate-helper\">\n(function () {\n  window.__UTILITY_AFFILIATE_MAP = window.__UTILITY_AFFILIATE_MAP || {};\n  document.addEventListener(\"click\", function (event) {\n    const target = event.target.closest(\"[data-affiliate-slot]\");\n    if (!target) return;\n    const slot = target.getAttribute(\"data-affiliate-slot\");\n    const href = window.__UTILITY_AFFILIATE_MAP[slot];\n    if (!href) return;\n    if (target.tagName && target.tagName.toLowerCase() === \"a\") {\n      target.setAttribute(\"href\", href);\n      target.removeAttribute(\"rel\");\n      return;\n    }\n    event.preventDefault();\n    window.open(href, \"_blank\");\n  }, true);\n})();\n</script>\n<script id=\"farmbuilder-functional-qa\">\n(function () {\n  function marker() {\n    let node = document.getElementById(\"qa-smoke-result\");\n    if (node) return node;\n    node = document.createElement(\"div\");\n    node.id = \"qa-smoke-result\";\n    node.hidden = true;\n    document.body.appendChild(node);\n    return node;\n  }\n\n  let qaFinished = false;\n  let qaWatchdog = null;\n\n  function normalize(text) {\n    return String(text || \"\").replace(/\\s+/g, \" \").trim();\n  }\n\n  function findForm() {\n    return document.getElementById(\"tool-form\") || document.querySelector(\"form\");\n  }\n\n  function findResult() {\n    return (\n      document.getElementById(\"tool-result\") ||\n      document.querySelector(\"[data-result]\") ||\n      document.querySelector(\".tool-result, .result-card, .result, .results, .output, .preview, .diagnostic, .analysis\")\n    );\n  }\n\n  function primaryAction(form) {\n    if (!form) return null;\n    return (\n      document.getElementById(\"tool-submit\") ||\n      form.querySelector(\"#tool-submit\") ||\n      form.querySelector(\"[data-primary-action]\") ||\n      form.querySelector(\"button[type=submit]\") ||\n      form.querySelector(\"button\") ||\n      form.querySelector(\"input[type=submit]\")\n    );\n  }\n\n  function resultSignature(node) {\n    if (!node) return \"\";\n    const text = normalize(node.textContent);\n    const html = normalize(node.innerHTML).slice(0, 600);\n    return `${text}||${html}`;\n  }\n\n  function resultHeadline(node) {\n    if (!node) return \"\";\n    const heading = node.querySelector(\"h1, h2, h3, strong, b\");\n    return normalize(heading ? heading.textContent : \"\");\n  }\n\n  function sampleText(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"} ${field.placeholder || \"\"}`.toLowerCase();\n    if (/email/.test(key)) return \"bonjour@example.com\";\n    if (/url|site|website|lien/.test(key)) return \"https://example.com/offre-solaire\";\n    if (/phone|tel|mobile/.test(key)) return \"0612345678\";\n    if (/ville|city|localisation|location|region|departement|postal/.test(key)) return \"Paris\";\n    if (/orientation/.test(key)) return \"sud\";\n    if (/keyword|theme|topic|sujet|subject/.test(key)) return \"energie solaire domestique\";\n    if (/titre|title/.test(key)) return \"Simulateur solaire maison\";\n    if (/nom|name|project/.test(key)) return \"Projet Horizon\";\n    if (/description|notes|content|message/.test(key)) return \"Maison individuelle exposee sud avec toiture exploitable.\";\n    return field.placeholder || \"France\";\n  }\n\n  function sampleNumber(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"}`.toLowerCase();\n    if (/inclinaison|angle|slope/.test(key)) return \"30\";\n    if (/surface|size|m2|sqm/.test(key)) return \"28\";\n    if (/annee|year/.test(key)) return \"2024\";\n    if (/prix|price|budget|cost|amount|montant/.test(key)) return \"12000\";\n    const min = Number(field.min || \"\");\n    const max = Number(field.max || \"\");\n    if (Number.isFinite(min) && Number.isFinite(max) && max >= min) {\n      return String(Math.min(max, Math.max(min, min + Math.round((max - min) * 0.35))));\n    }\n    if (Number.isFinite(min)) return String(Math.max(min, 12));\n    if (Number.isFinite(max)) return String(Math.min(max, 12));\n    return field.value || \"12\";\n  }\n\n  function applySample(field) {\n    const tag = (field.tagName || \"\").toLowerCase();\n    const type = (field.type || \"\").toLowerCase();\n    if (field.disabled) return;\n    if (type === \"hidden\" || type === \"submit\" || type === \"button\" || type === \"reset\" || type === \"image\" || type === \"file\") {\n      return;\n    }\n    const currentValue = normalize(field.value);\n    if (tag === \"select\") {\n      if (currentValue) return;\n      const option = Array.from(field.options || []).find((item) => item.value && !item.disabled) || field.options[0];\n      if (option) field.value = option.value;\n      return;\n    }\n    if (type === \"checkbox\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"radio\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"date\") {\n      if (currentValue) return;\n      field.value = \"2026-03-01\";\n      return;\n    }\n    if (type === \"email\") {\n      if (currentValue) return;\n      field.value = \"bonjour@example.com\";\n      return;\n    }\n    if (type === \"url\") {\n      if (currentValue) return;\n      field.value = \"https://example.com/offre-solaire\";\n      return;\n    }\n    if (type === \"tel\") {\n      if (currentValue) return;\n      field.value = \"0612345678\";\n      return;\n    }\n    if (type === \"color\") {\n      if (currentValue) return;\n      field.value = \"#2f855a\";\n      return;\n    }\n    if (type === \"number\" || type === \"range\") {\n      if (currentValue) return;\n      field.value = sampleNumber(field);\n      return;\n    }\n    if (currentValue) return;\n    field.value = sampleText(field);\n  }\n\n  function stamp(status, detail, headline, primary) {\n    if (qaFinished) return;\n    qaFinished = true;\n    if (qaWatchdog) {\n      window.clearTimeout(qaWatchdog);\n      qaWatchdog = null;\n    }\n    const node = marker();\n    node.dataset.status = status;\n    node.dataset.mode = \"native-form\";\n    node.dataset.detail = detail || \"\";\n    node.dataset.headline = headline || \"\";\n    node.dataset.primary = primary || \"\";\n    node.dataset.viewport = window.innerWidth <= 640 ? \"mobile\" : \"desktop\";\n    window.setTimeout(function () {\n      try {\n        window.stop();\n      } catch (_error) {}\n    }, 0);\n  }\n\n  function installModalGuards() {\n    const noop = function () {};\n    const approve = function () { return true; };\n    const empty = function () { return \"\"; };\n    try { window.alert = noop; } catch (_error) {}\n    try { window.confirm = approve; } catch (_error) {}\n    try { window.prompt = empty; } catch (_error) {}\n  }\n\n  function triggerAction(form, action) {\n    try {\n      if (typeof form.requestSubmit === \"function\") {\n        form.requestSubmit(action || undefined);\n        return;\n      }\n    } catch (_error) {}\n    if (action && typeof action.click === \"function\") {\n      action.click();\n      return;\n    }\n    form.dispatchEvent(new Event(\"submit\", { bubbles: true, cancelable: true }));\n  }\n\n  function inspectResult(before, attemptsLeft) {\n    const result = findResult();\n    if (!result) {\n      stamp(\"fail\", \"La zone de resultat est introuvable.\", \"\");\n      return;\n    }\n    const after = resultSignature(result);\n    const text = normalize(result.textContent);\n    if (after && after !== before && text.length >= 24) {\n      const primary = result.querySelector(\"a[href], button[data-href], [data-primary-url]\") || document.querySelector(\"#tool-result a[href]\");\n      stamp(\"pass\", \"Le formulaire natif a mis a jour la zone de resultat.\", resultHeadline(result), primary ? (primary.getAttribute(\"href\") || primary.getAttribute(\"data-primary-url\") || \"\") : \"\");\n      return;\n    }\n    if (attemptsLeft > 0) {\n      window.setTimeout(function () {\n        inspectResult(before, attemptsLeft - 1);\n      }, 250);\n      return;\n    }\n    stamp(\"fail\", \"La zone de resultat n'a pas renvoye de contenu exploitable.\", resultHeadline(result));\n  }\n\n  function runSmoke() {\n    const params = new URLSearchParams(window.location.search);\n    if (params.get(\"__qa\") !== \"functional\") return;\n    qaWatchdog = window.setTimeout(function () {\n      stamp(\"fail\", \"QA smoke timed out before the page reported a usable result.\", \"\");\n    }, 7000);\n    const form = findForm();\n    if (!form) {\n      stamp(\"fail\", \"Le formulaire principal est introuvable.\", \"\");\n      return;\n    }\n    const result = findResult();\n    const before = resultSignature(result);\n    installModalGuards();\n    try {\n      form.querySelectorAll(\"input, select, textarea\").forEach(applySample);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke sample failed: ${error.message}` : \"QA smoke sample failed before submit.\", \"\");\n      return;\n    }\n    const action = primaryAction(form);\n    try {\n      triggerAction(form, action);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke submit failed: ${error.message}` : \"QA smoke submit failed.\", \"\");\n      return;\n    }\n    inspectResult(before, 10);\n  }\n\n  window.addEventListener(\"error\", function (event) {\n    const message = event && event.message ? event.message : \"JavaScript runtime error during QA smoke.\";\n    stamp(\"fail\", `QA smoke JS error: ${message}`, \"\");\n  }, { once: true });\n\n  window.addEventListener(\"unhandledrejection\", function (event) {\n    const reason = event && event.reason;\n    const detail = typeof reason === \"string\"\n      ? reason\n      : reason && reason.message\n        ? reason.message\n        : \"Unhandled promise rejection during QA smoke.\";\n    stamp(\"fail\", `QA smoke rejection: ${detail}`, \"\");\n  }, { once: true });\n\n  if (document.readyState === \"loading\") {\n    document.addEventListener(\"DOMContentLoaded\", function () {\n      window.setTimeout(runSmoke, 60);\n    }, { once: true });\n  } else {\n    window.setTimeout(runSmoke, 60);\n  }\n})();\n</script>\n</body>\n</html>",
+    "generation_mode": "direct_html"
+  }
+}
